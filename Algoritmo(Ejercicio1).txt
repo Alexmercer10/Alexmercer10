@@ -1,0 +1,12 @@
+EJERCICIO 1: COPIA DE SEGURIDAD
+Algoritmo: 
+1.	Inicio
+2.	Encender el Ordenador 
+3.	Introducir el CDs en el lector CD/DVD
+4.	 Realizar la copia de los datos de seguridad de le Empresa (5GB = 5120 mb)
+5.	Para copiar todos los datos de seguridad de la Empresa se requerirán 8 CDs (7 CDs = 4900 Mb + 1 CD = 220mb)
+6.	Una vez llenado un CD que ingreso, se debe ingresar otro CD en blanco 
+7.	Y así llenar cada CD hasta llegar a los 8 CDs 
+8.	Copiar todos los datos de seguridad de la Empresa, apagar el ordenador.
+9.	Guardar los CDs en lugar seguro
+10.	Fin 

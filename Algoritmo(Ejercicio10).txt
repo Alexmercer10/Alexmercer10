@@ -1,0 +1,8 @@
+EJERCICIO 10: REGLAS DEL HOGAR
+Algoritmo: 
+1.	Inicio
+2.	No hay número de integrantes 
+3.	Los días de la semana son 7
+4.	Si hoy es miércoles entonces debe de preparar la cena 4 veces
+5.	14 días son los días que pasaría  
+6.	Fin 

@@ -1,0 +1,8 @@
+EJERCICIO 3: AUTOBÚS
+Algoritmo: 
+1.	Inicio
+2.	El pase de Mary es de 45 bs tiene un mes de uso y puede usarlo cada vez que suba al autobús 
+3.	Pero en caso de que no tuviera tendría que pagar 1.80 bs cada vez que suba al autobús 
+4.	El total equivalente a la del pase es (1.80 * 25 = 45) es decir solo subirá al autobús 25 veces durante todo el mes.
+5.	Es más conveniente comprar un pase que pagar 1.80 cada vez que subes ya que ahorrarías dinero y puedes tomar el bus más veces que pagar cada vez que subes.
+6.	Fin
