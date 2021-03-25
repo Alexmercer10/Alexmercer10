@@ -1,0 +1,35 @@
+/*
+ Se te pide elaborar un Algoritmo que explique la forma en la que se podría hacer trabajo, tomando como
+ejemplo, que se tiene 5GB de información en la máquina. Adicionalmente responda: ¿Cuantos cd se
+deberían usar para completar la copia de seguridad?, sobra espacio en alguno de los discos usados?
+ */
+package practicashugo;
+
+import java.util.Scanner;
+
+public class Ejercicio1 {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        int Dat_Seguridad = 5120; // == 5Gb
+        int Cds = 700; // incrementa en 1
+        boolean contadorCds;
+        int contador = 0;
+        int limite = 7;
+
+        // Cuantos Cds se necesitaran
+        while (contador <= limite) {
+            contadorCds = Cds > Dat_Seguridad;
+
+            if (contadorCds == false) {
+                contador++;
+            }
+
+        }
+
+        System.out.println("Los Cds que se requeririeron fueron: " + contador);
+
+    }
+
+}

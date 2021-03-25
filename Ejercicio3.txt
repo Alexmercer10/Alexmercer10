@@ -1,99 +1,24 @@
 /*
-c) Leer en el main un número n entero (entre el 1 y el 12). Debe crear una función nombreMes(n) que devuelva el nombre del mes correspondiente.
-Ejemplo. Si n = 1 debe imprimir "enero" y así.
+Mary compro un pase con valor de 45 Bs. Que le da derecho a viajar en autobús tantas veces como quiera
+durante un mes. Sin el pase, cada viaje cuesta 1.80 Bs. ¿Suponiendo que no tiene un pase de Autobús,
+¿Cuántos viajes podría realizar Mary por el mismo precio, es decir, pagando la tarifa normal por viaje?
+Realice un algoritmo que explique como calcular lo que se pide.
  */
-package Ejercicios_Atributos_Metodos;
+package practicashugo;
 
-import java.util.Scanner;
-
-
-public class Ejercicio4 {
-    
+public class Ejercicio3 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        
+       double paseNormal = 1.80; // 1.80 bs
+       int PaseMensual = 45; // 45 bs
+       int viajes = 25;
+       double resultado ;
     
-        System.out.println("Ingrese los numeros entre el 1 y el 12");
-        int num = entrada.nextInt();
         
-        System.out.println("Mes: "+MES(num));
+        resultado = paseNormal * viajes; 
+        System.out.println("Es equivalente al pase mensual"+resultado); // = 45 bs 
         
-    }
-    public static int MES(int num){
-        
-        if (num < 1 && num > 12) {
-          
-        }else{
-            switch(num){
-                
-                case 1:
-                {
-                    System.out.println("Enero");
-                    break;
-                }
-                case 2:
-                {
-                    System.out.println("Febrero");
-                    break;
-                }
-                case 3:
-                {
-                    System.out.println("Marzo");
-                    break;
-                }
-                case 4:
-                {
-                    System.out.println("Abril");
-                    break;
-                }
-                case 5:
-                {
-                    System.out.println("Mayo");
-                    break;
-                }
-                case 6:
-                {
-                    System.out.println("Junio ");
-                    break;
-                }
-                case 7:
-                {
-                    System.out.println("Julio");
-                    break;
-                }
-                case 8:
-                {
-                    System.out.println("Junio ");
-                    break;
-                }
-                case 9:
-                {
-                    System.out.println("Sebtiempbre");
-                    break;
-                }
-                case 10:
-                {
-                    System.out.println("Octubre");
-                    break;
-                }
-                case 11:
-                {
-                    System.out.println("Nobiembre");
-                    break;
-                }
-                case 12:
-                {
-                    System.out.println("Diciembre");
-                    break;
-                }
-                default:
-                {
-                    System.out.println("El numero que ingreso no existe");
-                }
-                
-            }
-                    
-        }
-        return num;
-        
+        System.out.println("Los viajes que podra realizar con el pase normal es: "+viajes);
+      
     }
 }
