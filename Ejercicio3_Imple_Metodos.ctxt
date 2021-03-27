@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Ejercicio3_Imple_Metodos
-comment0.text=\r\nCalcula\ la\ circunferencia\ de\ un\ c\u00EDrculo\ de\ radio\ R\r\nLa\ f\u00F3rmula\ para\ calcular\ la\ circunferencia\ es\ Di\u00E1metro*pi.\r\nPara\ pi\=3.14159\r\n
-comment1.params=R
-comment1.target=int\ sampleMethod(int)
-numComments=2
